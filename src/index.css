@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap');
+
+:root {
+    --defaultFontSize: 16px;
+    --fontColor: #000;
+    --backgroundColor: #ececec;
+    --fontHeading: 'Hind Vadodara', sans-serif;
+    --fontFamily: 'Playfair', sans-serif;
+    --whiteColor: #fff;
+    --greyedColor: #f4f4f4;
+    --alertColor: #f7f9fb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-width: 320px;
+    font-size: var(--defaultFontSize);
+    color: var(--fontColor);
+    background: var(--backgroundColor);
+    font-family: var(--fontFamily);
+}
